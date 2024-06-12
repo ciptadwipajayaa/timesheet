@@ -1,29 +1,75 @@
 {
   "data": [
-    { 
-      "id": 1, 
-      "activity_category_name": "tes1", 
-      "number_of_sub_categories": 6, 
-      "sub_categories": [
-        { "id": 1, "name": "Task A"},
-		{ "id": 2, "name": "Task B"},
-        { "id": 3, "name": "Task C"},
-    	{ "id": 4, "name": "Task D"},
-        { "id": 5, "name": "Task E"},
-        { "id": 6, "name": "Task F"}
-      ],
-      "last_changes": "16 Mei 2024"
+            {
+              "id": 1,
+              "name": "Parent Category #1",
+              "parent_id": 0,
+              "sub_category": [
+                {
+                    "id": 2,
+                    "name": "Sub Kategori A",
+                    "parent_id": 1,
+                    "company_id": 0,
+                    "created_by": 0,
+                    "updated_by": 0,
+                    "deleted_by": 0,
+                    "created_at": 1718122090892,
+                    "updated_at": 1718122090892,
+                    "deleted_at": 0
+                },
+                {
+                    "id": 3,
+                    "name": "Sub Kategori B",
+                    "parent_id": 1,
+                    "company_id": 0,
+                    "created_by": 0,
+                    "updated_by": 0,
+                    "deleted_by": 0,
+                    "created_at": 1718122090892,
+                    "updated_at": 1718122090892,
+                    "deleted_at": 0
+                }
+            ],
+            "company_id": 1,
+            "created_by": 288,
+            "updated_by": 0,
+            "deleted_by": 0,
+            "created_at": 1718122090891,
+            "updated_at": 1718122090891,
+            "deleted_at": 0
+        },
+        {
+            "id": 2,
+            "name": "Sub Kategori A",
+            "parent_id": 1,
+            "company_id": 0,
+            "created_by": 0,
+            "updated_by": 0,
+            "deleted_by": 0,
+            "created_at": 1718122090892,
+            "updated_at": 1718122090892,
+            "deleted_at": 0
+        },
+        {
+            "id": 3,
+            "name": "Sub Kategori B",
+            "parent_id": 1,
+            "company_id": 0,
+            "created_by": 0,
+            "updated_by": 0,
+            "deleted_by": 0,
+            "created_at": 1718122090892,
+            "updated_at": 1718122090892,
+            "deleted_at": 0
+        }
+    ],
+    "error": false,
+    "message": "Success",
+    "meta": {
+        "totalPages": 1,
+        "pageNumber": 1,
+        "totalRecords": 3,
+        "totalRecordsOnPage": 3
     },
-    { 
-      "id": 2, 
-      "activity_category_name": "tes2", 
-      "number_of_sub_categories": 3, 
-      "sub_categories": [
-        { "id": 1, "name": "Task A"},
-		{ "id": 2, "name": "Task B"},
-        { "id": 3, "name": "Task C"}
-      ],
-      "last_changes": "17 Mei 2024"
-    }
-  ]
+    "status": 200
 }
